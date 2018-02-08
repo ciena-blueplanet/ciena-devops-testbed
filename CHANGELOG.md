@@ -1,3 +1,8 @@
+# 0.0.5 (2018-02-08)
+* Updated `broccoli-funnel` to `^2.0.1`
+* Didn't really do any of that
+
+
 # 0.0.4 (2018-02-08)
 Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
 
