@@ -1,0 +1,53 @@
+language: node_js
+
+sudo: false
+
+node_js:
+- '8.1.2'
+- stable
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+
+cache:
+  directories:
+    - node_modules
+
+env:
+  matrix:
+  - CXX=g++-4.8
+  global:
+    secure: HNnnjkp6MmDpCRUt/DjTiPzzcxGBpe4jDKqgCOKCePuUCg7phUhprGfw6e8Hy8e8imvHn71av4ikI3gtS9H+WwO7iS7HDK63Tmwh2wJZq2pEljSW8Ep4OefxuAuZESL06alhSXp7+Tzz5GSJpmEYm9UN+d8RZakOaGZKvH/jDXts3W+QLr9FrOGqmyOHbKugsdul9A+Nvc/ui7qbjlG/Tt4asdKYagxH5h9ylpdtgzpoBKsW3DvwwCecnbChBeAU3XITl5r5xecSj4iKquHheC871gCHl1nv+9q8z+HxOvS3dP9kkcF+9I1bHpOlBtTp+cpWLxVbuIt0bVfGJCuWKOy5S+9wvnsnI+Q6KkVT9E07bNSYjWmQNxs7QGGGJJipgHhytnYlqBoJx8NaQua7tRGJ/aa3gk8XBf0yFidJIhPz0/uUnoaa+dnSgcDHKx065Ik1syicVKBhj43LM8a6qtewWHnZRRo6om7X+Xufd+wGGMLFd7u0ItnZpRtbuGGdCzWdu7DCz6ZjLB/S6SvZ9cO9pNAir494uN4xRLKzgBUzVunOcAsK2Z7M+LGhOs9Y4zI2Ybum8Nd2zFIkSsrGGmBUAajn0+jV67zsTEDOv/lHi65n4oKSrs2Qc3Pw8ZCk7WByQAW53Bk/ZWuttwgMbZ6cAgtnWZ2U+rkfvZAJPSc=
+
+before_install:
+- npm install -g pr-bumper@^3.2.3
+- $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
+
+install:
+- $(npm root -g)/pr-bumper/.travis/maybe-install.sh
+
+script:
+- $(npm root -g)/pr-bumper/.travis/maybe-test.sh
+- $(npm root -g)/pr-bumper/.travis/maybe-bump-version.sh
+
+after_success:
+- $(npm root -g)/pr-bumper/.travis/maybe-publish-coverage.sh
+
+deploy:
+  provider: npm
+  email: npm.ciena@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: eAndxcAa0xzzScmIfu8LlOSprbcxfyt+soLtkk0cktYZmML/8/3OB8b6OTO/MBYS/kUlhbMyleIhy9eNgA3kln5Yg0JcHkQi0Rw9dqPapeVovXXarqkedzPpk8dd64ejILHObpgLAUTinVngIMX2fB2qPgt86Zoy8wJ17w0wpxBVPyxM1iflZsmuo1N0xvCrowH201WOs/oSGGW4qFRgL1JgNuHQxwiro8hX2/sQHzN9GKFsG6vH/KpqVWEDxytkVQ/Eh9hc7MteRUrOaaMvMoLWALpJZ8ScLV732J7VOh4Zot+LchnsCaBpjsSMG4cG04fNehF0A9uuwxRPK0qsGH6cE3Zf4VdMca/bMlJql8d0iFrbkT0qk+bc68CTmd470lTS47j5TOreCY1IzpAeRMf21lrUJCg3oWnzGWzTlIO3Kw+U4R+oCpxrZq18ZMyRf7u2rQAUYKTHuyAa4VOfx/5fjslMwNlMjhG5ocR+1Yfplb3DB7HqxJviIPfA/HIEfU77CuNNrIHjz13shfqeromjX7EpgUIV/mfL6PVEdETfX0VEm4ZIcYWfwXdKReABSmrYUqtzwUn7X1nUBRogj6nrsx04RfKQPQwQwePwV+9VqSdQ0f5XNPQWIxZ0ID4rKmbsKOncqzA0mqc9oRETCu+jaJWWzLKaKQnQu6WOldA=
+  on:
+    all_branches: true
+    node: '8.1.2'
+    tags: true
+
+notifications:
+  slack:
+    secure: LEfIZxy/1Bzrd5is2/RgrZf1VGqvGRU/2u0CsLWCqtKOpxcER3iMCplElYDVvrXs2cFHMnRDkYK/ycpm+I4s3Vsr+bOyf4sqAaJPosMc+jN6U3Xw1ei9CRqoEfPvctOtbe6ctdt0XvxyByyeDWNmemctlAJrZXY/Ib3DFyE40spgrZy3jR4dqOqiBWO1f7vhF8kMs7jEpNZ0kdcUHWzUpGPN3qddZz3svRlw0oJZAA6tS7bznwMHHC9x1znTCjtmLelhxG9UFcJGhlCHBU/oFom58Zk9oUR6boL/HdsGmdJoqmA6DngEu8JQN1gkcoo4JITmw+Rss3ziLGcZA8aw0yph18ys3dHBrMpl/wwI4ncMDPkEiWZOAPtkoJuJ6MmpjcJWBe7jUmYQILH6mjkzPrKOZSJI+be8lguEoi0VpBYy8pBSRS/dMNyCo5+W8vYUQ3FtiWtf+ScGKEcIM3VzfldbubTGYl74g1nzMGXtAvtQ8hsub8xE1qGquX535TjTZ04lTry+hUy2GHE0Kw1QKr8zdvmOu3I2OKIWxwVxff6W/qqJBJC364Fg4VYRc75KaNV1VbWk/Hn2YB+lm41pE09WlBWW45LWSTUevcOVNfvL0OaUI9+ToBl5/oLA+Uh97kcqJdir/BomEc7zOJAUDlEJN0KqeZoIUI0I4PqcIXc=
