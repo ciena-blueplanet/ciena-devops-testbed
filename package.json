@@ -1,0 +1,26 @@
+{
+  "name": "ciena-devops-testbed",
+  "version": "0.0.0",
+  "description": "Used to test 'pr-bumper' and 'ciena-devops' integrations, and other DevOps-related activities",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "echo",
+    "lint": "echo",
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ciena-blueplanet/ciena-devops-testbed.git"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
