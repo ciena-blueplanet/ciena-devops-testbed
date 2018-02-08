@@ -1,3 +1,7 @@
+# 0.1.2 (2018-02-08)
+Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
+
+
 # 0.1.1 (2018-02-08)
 Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
 
