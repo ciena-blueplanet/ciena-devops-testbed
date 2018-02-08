@@ -1,0 +1,5 @@
+.github/
+.gitignore
+.npmignore
+.pullapprove.yml
+.travis.yml
