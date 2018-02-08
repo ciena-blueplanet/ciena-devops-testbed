@@ -1,3 +1,7 @@
+# 0.0.4 (2018-02-08)
+Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
+
+
 # 0.0.3 (2018-02-08)
 * Testing patch release
 
