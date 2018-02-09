@@ -1,3 +1,7 @@
+# 1.1.1 (2018-02-09)
+* Should be a `PATCH`
+
+
 # 1.1.0 (2018-02-09)
 * Use `^1.0.0` release of `ciena-devops`
 
