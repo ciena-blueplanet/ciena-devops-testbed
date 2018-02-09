@@ -1,6 +1,6 @@
 {
   "name": "ciena-devops-testbed",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Used to test 'pr-bumper' and 'ciena-devops' integrations, and other DevOps-related activities",
   "directories": {
     "doc": "doc",
