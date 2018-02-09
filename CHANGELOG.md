@@ -1,3 +1,6 @@
+# 1.1.0 (2018-02-09)
+* Use `^1.0.0` release of `ciena-devops`
+
 # 1.0.0 (2018-02-09)
 * "Testing" `more` stuffs
 
