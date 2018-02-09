@@ -1,3 +1,7 @@
+# 1.2.0 (2018-02-09)
+Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
+
+
 # 1.1.1 (2018-02-09)
 * Should be a `PATCH`
 
