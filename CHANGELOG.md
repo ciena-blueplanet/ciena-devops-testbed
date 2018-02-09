@@ -1,3 +1,7 @@
+# 2.0.0 (2018-02-09)
+* testing major
+
+
 # 1.2.0 (2018-02-09)
 Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
 
