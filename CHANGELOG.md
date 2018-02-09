@@ -1,3 +1,7 @@
+# 1.0.0 (2018-02-09)
+* "Testing" `more` stuffs
+
+
 # 0.2.0 (2018-02-09)
 * **Upgraded** to `ember-test-utils@4.x`
 * **Upgraded** to `ember-cli-code-coverage@0.3.12` (using a pinned `ember-code-snippet@1.7.0` so as to avoid overwriting `require` and breaking `ember-cli-code-coverage`)
