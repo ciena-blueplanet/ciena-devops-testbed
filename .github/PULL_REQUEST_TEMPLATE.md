@@ -33,10 +33,10 @@ Please provide screenshots or recordings if this PR is modifying the visual UI o
 
 **This project uses [semver](http://semver.org), please check the scope of this PR:**
 
-* [ ] #none#
-* [ ] #patch#
-* [ ] #minor#
-* [ ] #major#
+- [ ] #none#
+- [ ] #patch#
+- [ ] #minor#
+- [ ] #major#
 
 Examples:
 * **NONE**
