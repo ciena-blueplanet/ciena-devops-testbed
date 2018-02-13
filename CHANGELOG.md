@@ -1,3 +1,8 @@
+# 3.0.0 (2018-02-13)
+
+* testing major pr
+
+
 # 2.3.0 (2018-02-13)
 
 * Testing minor pr
