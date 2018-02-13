@@ -1,3 +1,8 @@
+# 2.3.0 (2018-02-13)
+
+* Testing minor pr
+
+
 # 2.2.1 (2018-02-13)
 
 * patch pr test
