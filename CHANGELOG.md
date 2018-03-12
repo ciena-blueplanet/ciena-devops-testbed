@@ -1,3 +1,8 @@
+# 3.2.1 (2018-03-12)
+
+Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
+
+
 # 3.2.0 (2018-03-12)
 
 * Testing slack script changes
