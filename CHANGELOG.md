@@ -1,3 +1,7 @@
+# 3.3.0 (2018-03-13)
+
+* Testing protected branch protections with pr-bumper
+
 # 3.2.1 (2018-03-12)
 
 Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
