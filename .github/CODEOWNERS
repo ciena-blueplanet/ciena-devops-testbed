@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/about-codeowners/ for valid syntax for entries.
+
+# See https://confluence.ciena.com/pages/viewpage.action?pageId=286898209 for more information about the decisions behind the entries in this file
+
+/.github/               @notmessenger @juwara0
+/.travis/               @notmessenger @juwara0
+.ember-cli              @notmessenger @juwara0
+.eslintignore           @notmessenger @juwara0
+.eslintrc.js            @notmessenger @juwara0
+.gitignore              @notmessenger @juwara0
+.npmignore              @notmessenger @juwara0
+.pr-bumper.json         @notmessenger @juwara0
+.pullapprove.yml        @notmessenger @juwara0
+.remarkignore           @notmessenger @juwara0
+.sass-lint.yml          @notmessenger @juwara0
+.template-lintrc.js     @notmessenger @juwara0
+.travis.yml             @notmessenger @juwara0
+.watchmanconfig         @notmessenger @juwara0
+CHANGELOG.md            @notmessenger @juwara0
+LICENSE.md              @notmessenger @juwara0
+NOTES.md                @notmessenger @juwara0
+README.md               @notmessenger @juwara0
+bower.json              @notmessenger @juwara0
+/config/ember-try.js    @notmessenger @juwara0
+/config/environment.js  @notmessenger @juwara0
+/docs/                  @notmessenger @juwara0
+ember-cli-build.js      @notmessenger @juwara0
+index.js                @notmessenger @juwara0
+jsconfig.json           @notmessenger @juwara0
+package.json            @notmessenger @juwara0
+package-lock.json       @notmessenger @juwara0
+testem.js               @notmessenger @juwara0
+testem_firefox_user.js  @notmessenger @juwara0
