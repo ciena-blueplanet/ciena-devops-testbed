@@ -2,32 +2,36 @@
 
 # See https://confluence.ciena.com/pages/viewpage.action?pageId=286898209 for more information about the decisions behind the entries in this file
 
-/.github/               @notmessenger @juwara0
-/.travis/               @notmessenger @juwara0
-.ember-cli              @notmessenger @juwara0
-.eslintignore           @notmessenger @juwara0
-.eslintrc.js            @notmessenger @juwara0
-.gitignore              @notmessenger @juwara0
-.npmignore              @notmessenger @juwara0
-.pr-bumper.json         @notmessenger @juwara0
-.pullapprove.yml        @notmessenger @juwara0
-.remarkignore           @notmessenger @juwara0
-.sass-lint.yml          @notmessenger @juwara0
-.template-lintrc.js     @notmessenger @juwara0
-.travis.yml             @notmessenger @juwara0
-.watchmanconfig         @notmessenger @juwara0
-CHANGELOG.md            @notmessenger @juwara0
-LICENSE.md              @notmessenger @juwara0
-NOTES.md                @notmessenger @juwara0
-README.md               @notmessenger @juwara0
-bower.json              @notmessenger @juwara0
-/config/ember-try.js    @notmessenger @juwara0
-/config/environment.js  @notmessenger @juwara0
-/docs/                  @notmessenger @juwara0
-ember-cli-build.js      @notmessenger @juwara0
-index.js                @notmessenger @juwara0
-jsconfig.json           @notmessenger @juwara0
-package.json            @notmessenger @juwara0
-package-lock.json       @notmessenger @juwara0
-testem.js               @notmessenger @juwara0
-testem_firefox_user.js  @notmessenger @juwara0
+# Default owners for everything in the repo, unless a later match takes precedence
+* @ciena-blueplanet/reviewers
+
+# These files are owned by the repository architecture owners
+/.github/               @ciena-blueplanet/owners-architecture
+/.travis/               @ciena-blueplanet/owners-architecture
+.ember-cli              @ciena-blueplanet/owners-architecture
+.eslintignore           @ciena-blueplanet/owners-architecture
+.eslintrc.js            @ciena-blueplanet/owners-architecture
+.gitignore              @ciena-blueplanet/owners-architecture
+.npmignore              @ciena-blueplanet/owners-architecture
+.pr-bumper.json         @ciena-blueplanet/owners-architecture
+.pullapprove.yml        @ciena-blueplanet/owners-architecture
+.remarkignore           @ciena-blueplanet/owners-architecture
+.sass-lint.yml          @ciena-blueplanet/owners-architecture
+.template-lintrc.js     @ciena-blueplanet/owners-architecture
+.travis.yml             @ciena-blueplanet/owners-architecture
+.watchmanconfig         @ciena-blueplanet/owners-architecture
+CHANGELOG.md            @ciena-blueplanet/owners-architecture
+LICENSE.md              @ciena-blueplanet/owners-architecture
+NOTES.md                @ciena-blueplanet/owners-architecture
+README.md               @ciena-blueplanet/owners-architecture
+bower.json              @ciena-blueplanet/owners-architecture
+/config/ember-try.js    @ciena-blueplanet/owners-architecture
+/config/environment.js  @ciena-blueplanet/owners-architecture
+/docs/                  @ciena-blueplanet/owners-architecture
+ember-cli-build.js      @ciena-blueplanet/owners-architecture
+index.js                @ciena-blueplanet/owners-architecture
+jsconfig.json           @ciena-blueplanet/owners-architecture
+package.json            @ciena-blueplanet/owners-architecture
+package-lock.json       @ciena-blueplanet/owners-architecture
+testem.js               @ciena-blueplanet/owners-architecture
+testem_firefox_user.js  @ciena-blueplanet/owners-architecture
