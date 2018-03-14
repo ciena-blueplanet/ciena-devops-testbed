@@ -3,7 +3,7 @@
 # See https://confluence.ciena.com/pages/viewpage.action?pageId=286898209 for more information about the decisions behind the entries in this file
 
 # Default owners for everything in the repo, unless a later match takes precedence
-* @ciena-blueplanet/reviewers
+* @ciena-blueplanet/reviewers-tooling
 
 # These files are owned by the repository architecture owners
 /.github/               @ciena-blueplanet/owners-architecture
