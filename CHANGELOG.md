@@ -1,3 +1,8 @@
+# 3.3.1 (2018-03-20)
+
+* test
+
+
 # 3.3.0 (2018-03-13)
 
 * Testing protected branch protections with pr-bumper
