@@ -3,7 +3,7 @@ language: node_js
 sudo: false
 
 node_js:
-- '8.1.2'
+- $NODE_VERSION
 - stable
 
 addons:
@@ -24,7 +24,7 @@ env:
     secure: HNnnjkp6MmDpCRUt/DjTiPzzcxGBpe4jDKqgCOKCePuUCg7phUhprGfw6e8Hy8e8imvHn71av4ikI3gtS9H+WwO7iS7HDK63Tmwh2wJZq2pEljSW8Ep4OefxuAuZESL06alhSXp7+Tzz5GSJpmEYm9UN+d8RZakOaGZKvH/jDXts3W+QLr9FrOGqmyOHbKugsdul9A+Nvc/ui7qbjlG/Tt4asdKYagxH5h9ylpdtgzpoBKsW3DvwwCecnbChBeAU3XITl5r5xecSj4iKquHheC871gCHl1nv+9q8z+HxOvS3dP9kkcF+9I1bHpOlBtTp+cpWLxVbuIt0bVfGJCuWKOy5S+9wvnsnI+Q6KkVT9E07bNSYjWmQNxs7QGGGJJipgHhytnYlqBoJx8NaQua7tRGJ/aa3gk8XBf0yFidJIhPz0/uUnoaa+dnSgcDHKx065Ik1syicVKBhj43LM8a6qtewWHnZRRo6om7X+Xufd+wGGMLFd7u0ItnZpRtbuGGdCzWdu7DCz6ZjLB/S6SvZ9cO9pNAir494uN4xRLKzgBUzVunOcAsK2Z7M+LGhOs9Y4zI2Ybum8Nd2zFIkSsrGGmBUAajn0+jV67zsTEDOv/lHi65n4oKSrs2Qc3Pw8ZCk7WByQAW53Bk/ZWuttwgMbZ6cAgtnWZ2U+rkfvZAJPSc=
 
 before_install:
-- npm install -g pr-bumper@^3.2.3 ciena-devops@^1.0.0 
+- npm install -g pr-bumper@^3.2.3 ciena-devops@^1.0.0
 - $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
 
 install:
@@ -48,7 +48,7 @@ deploy:
     secure: eAndxcAa0xzzScmIfu8LlOSprbcxfyt+soLtkk0cktYZmML/8/3OB8b6OTO/MBYS/kUlhbMyleIhy9eNgA3kln5Yg0JcHkQi0Rw9dqPapeVovXXarqkedzPpk8dd64ejILHObpgLAUTinVngIMX2fB2qPgt86Zoy8wJ17w0wpxBVPyxM1iflZsmuo1N0xvCrowH201WOs/oSGGW4qFRgL1JgNuHQxwiro8hX2/sQHzN9GKFsG6vH/KpqVWEDxytkVQ/Eh9hc7MteRUrOaaMvMoLWALpJZ8ScLV732J7VOh4Zot+LchnsCaBpjsSMG4cG04fNehF0A9uuwxRPK0qsGH6cE3Zf4VdMca/bMlJql8d0iFrbkT0qk+bc68CTmd470lTS47j5TOreCY1IzpAeRMf21lrUJCg3oWnzGWzTlIO3Kw+U4R+oCpxrZq18ZMyRf7u2rQAUYKTHuyAa4VOfx/5fjslMwNlMjhG5ocR+1Yfplb3DB7HqxJviIPfA/HIEfU77CuNNrIHjz13shfqeromjX7EpgUIV/mfL6PVEdETfX0VEm4ZIcYWfwXdKReABSmrYUqtzwUn7X1nUBRogj6nrsx04RfKQPQwQwePwV+9VqSdQ0f5XNPQWIxZ0ID4rKmbsKOncqzA0mqc9oRETCu+jaJWWzLKaKQnQu6WOldA=
   on:
     all_branches: true
-    node: '8.1.2'
+    node: $NODE_VERSION
     tags: true
 
 notifications:
