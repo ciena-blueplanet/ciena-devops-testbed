@@ -1,3 +1,9 @@
+# 3.3.4 (2018-06-18)
+* **Updated** travis.yml to use `TRAVIS_NODE_VERSION` variable
+
+# 3.3.3 (2018-06-18)
+* **Updated** initial installation of greenkeeper.io for testing out greenkeeper-lockfile
+
 # 3.3.2 (2018-05-15)
 * **Updated** travis.yml to use `TRAVIS_NODE_VERSION` variable
 
