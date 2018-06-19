@@ -2,6 +2,10 @@
   "features": {
     "changelog": {
       "enabled": true
+    },
+    "maxScope": {
+      "enabled": true,
+      "value": "patch"
     }
   }
 }
