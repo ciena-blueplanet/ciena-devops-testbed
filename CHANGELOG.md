@@ -1,3 +1,7 @@
+# 5.0.0-alpha.2 (2018-06-19)
+* **Updated** testing travis repository variables
+
+
 # 3.3.1 (2018-05-15)
 * **Updated** testing travis repository variables
 
