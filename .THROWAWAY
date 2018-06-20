@@ -1,3 +1,4 @@
 This file exist to hold random changes in order to generate a diff for a PR to use for testing desired process.
 
 * testing pr-bumper with upstream alpha branch
+* testing to make sure that a GitHub release on the upstream alpha branch happens

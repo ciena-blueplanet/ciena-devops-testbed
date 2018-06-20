@@ -24,7 +24,8 @@ env:
     secure: HNnnjkp6MmDpCRUt/DjTiPzzcxGBpe4jDKqgCOKCePuUCg7phUhprGfw6e8Hy8e8imvHn71av4ikI3gtS9H+WwO7iS7HDK63Tmwh2wJZq2pEljSW8Ep4OefxuAuZESL06alhSXp7+Tzz5GSJpmEYm9UN+d8RZakOaGZKvH/jDXts3W+QLr9FrOGqmyOHbKugsdul9A+Nvc/ui7qbjlG/Tt4asdKYagxH5h9ylpdtgzpoBKsW3DvwwCecnbChBeAU3XITl5r5xecSj4iKquHheC871gCHl1nv+9q8z+HxOvS3dP9kkcF+9I1bHpOlBtTp+cpWLxVbuIt0bVfGJCuWKOy5S+9wvnsnI+Q6KkVT9E07bNSYjWmQNxs7QGGGJJipgHhytnYlqBoJx8NaQua7tRGJ/aa3gk8XBf0yFidJIhPz0/uUnoaa+dnSgcDHKx065Ik1syicVKBhj43LM8a6qtewWHnZRRo6om7X+Xufd+wGGMLFd7u0ItnZpRtbuGGdCzWdu7DCz6ZjLB/S6SvZ9cO9pNAir494uN4xRLKzgBUzVunOcAsK2Z7M+LGhOs9Y4zI2Ybum8Nd2zFIkSsrGGmBUAajn0+jV67zsTEDOv/lHi65n4oKSrs2Qc3Pw8ZCk7WByQAW53Bk/ZWuttwgMbZ6cAgtnWZ2U+rkfvZAJPSc=
 
 before_install:
-- npm install -g pr-bumper@^3.2.3 ciena-devops@^1.0.0
+- npm install -g git://github.com/juwara0/pr-bumper#upstreamBranch
+- npm install -g ciena-devops@^1.0.0
 - $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
 
 install:
