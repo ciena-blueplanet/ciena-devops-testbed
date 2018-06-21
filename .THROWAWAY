@@ -2,3 +2,4 @@ This file exist to hold random changes in order to generate a diff for a PR to u
 
 * testing pr-bumper with upstream alpha branch
 * testing to make sure that a GitHub release on the upstream alpha branch happens
+* testing to make sure that a PR opened on a fork to be merged into an upstream pre-release branch results in that branch being updated and released in GitHub but not NPM.
