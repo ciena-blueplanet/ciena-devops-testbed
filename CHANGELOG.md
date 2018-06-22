@@ -1,3 +1,6 @@
+# 3.3.7 (2018-06-22)
+* **Updated** testing configuration of greenkeeper-lockfile with pr-bumper
+
 # 3.3.6 (2018-06-22)
 * **Updated** testing a PR from main repo to master from a `greenkeeper/` branch on the main repo
 
