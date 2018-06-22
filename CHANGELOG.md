@@ -1,3 +1,6 @@
+# 6.0.0-alpha.2 (2018-06-22)
+* **Updated** testing upstream pre-release from PR causes new GitHub release
+
 # 3.3.4 (2018-06-18)
 * **Updated** travis.yml to use `TRAVIS_NODE_VERSION` variable
 
