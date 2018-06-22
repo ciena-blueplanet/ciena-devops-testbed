@@ -1,3 +1,6 @@
+# 3.3.6 (2018-06-22)
+* **Updated** testing a PR from main repo to master from a `greenkeeper/` branch on the main repo
+
 # 3.3.5 (2018-06-22)
 * **Updated** testing the regular PR process
 
