@@ -1,3 +1,6 @@
+# 3.3.8 (2018-06-22)
+* **Updated** to include a whole lot of dependencies in order to test greenkeeper and greenskeeper-lockfile
+
 # 3.3.7 (2018-06-22)
 * **Updated** testing configuration of greenkeeper-lockfile with pr-bumper
 
