@@ -21,9 +21,11 @@ env:
   matrix:
   - CXX=g++-4.8
   global:
-    secure: HNnnjkp6MmDpCRUt/DjTiPzzcxGBpe4jDKqgCOKCePuUCg7phUhprGfw6e8Hy8e8imvHn71av4ikI3gtS9H+WwO7iS7HDK63Tmwh2wJZq2pEljSW8Ep4OefxuAuZESL06alhSXp7+Tzz5GSJpmEYm9UN+d8RZakOaGZKvH/jDXts3W+QLr9FrOGqmyOHbKugsdul9A+Nvc/ui7qbjlG/Tt4asdKYagxH5h9ylpdtgzpoBKsW3DvwwCecnbChBeAU3XITl5r5xecSj4iKquHheC871gCHl1nv+9q8z+HxOvS3dP9kkcF+9I1bHpOlBtTp+cpWLxVbuIt0bVfGJCuWKOy5S+9wvnsnI+Q6KkVT9E07bNSYjWmQNxs7QGGGJJipgHhytnYlqBoJx8NaQua7tRGJ/aa3gk8XBf0yFidJIhPz0/uUnoaa+dnSgcDHKx065Ik1syicVKBhj43LM8a6qtewWHnZRRo6om7X+Xufd+wGGMLFd7u0ItnZpRtbuGGdCzWdu7DCz6ZjLB/S6SvZ9cO9pNAir494uN4xRLKzgBUzVunOcAsK2Z7M+LGhOs9Y4zI2Ybum8Nd2zFIkSsrGGmBUAajn0+jV67zsTEDOv/lHi65n4oKSrs2Qc3Pw8ZCk7WByQAW53Bk/ZWuttwgMbZ6cAgtnWZ2U+rkfvZAJPSc=
+  - secure: HNnnjkp6MmDpCRUt/DjTiPzzcxGBpe4jDKqgCOKCePuUCg7phUhprGfw6e8Hy8e8imvHn71av4ikI3gtS9H+WwO7iS7HDK63Tmwh2wJZq2pEljSW8Ep4OefxuAuZESL06alhSXp7+Tzz5GSJpmEYm9UN+d8RZakOaGZKvH/jDXts3W+QLr9FrOGqmyOHbKugsdul9A+Nvc/ui7qbjlG/Tt4asdKYagxH5h9ylpdtgzpoBKsW3DvwwCecnbChBeAU3XITl5r5xecSj4iKquHheC871gCHl1nv+9q8z+HxOvS3dP9kkcF+9I1bHpOlBtTp+cpWLxVbuIt0bVfGJCuWKOy5S+9wvnsnI+Q6KkVT9E07bNSYjWmQNxs7QGGGJJipgHhytnYlqBoJx8NaQua7tRGJ/aa3gk8XBf0yFidJIhPz0/uUnoaa+dnSgcDHKx065Ik1syicVKBhj43LM8a6qtewWHnZRRo6om7X+Xufd+wGGMLFd7u0ItnZpRtbuGGdCzWdu7DCz6ZjLB/S6SvZ9cO9pNAir494uN4xRLKzgBUzVunOcAsK2Z7M+LGhOs9Y4zI2Ybum8Nd2zFIkSsrGGmBUAajn0+jV67zsTEDOv/lHi65n4oKSrs2Qc3Pw8ZCk7WByQAW53Bk/ZWuttwgMbZ6cAgtnWZ2U+rkfvZAJPSc=
+  - secure: IY+NmS9xRwThd8jWU8FRUrZ5Aeo4l1Ox0MWl1/ltTH9jr7HmQLLejXyk5IcAUazbrlGg/iewc+dWZAwplFBplBq8Pd27aOP3ihWDGaSD2+Egb8LFJM4/6rqoaHkybVKX5kF8n2kGnTyXq13S5PnvtU8PtTjmETZs9iKUHbUtIQ2GiIfCbqUlTKVORE+McGUHiaMX/jBL9QB6RIDDf8ZkDsj0DLGiPxGOiTg/IQbdVPUjpJKHEsRAgPYYjZsPQJRC5nifAgrskyqzUeNxVU7OQUDii9U1ns1YWq3BmiJ6p9gMuJkqU1KFLBxKe+kDZEqmJqyXNSRYMbNvIAVB8UbwULaO6JaPq320RK7fnLtwiniXFqh6+Wd5LInMP6Zi2WNaImzCuGPJP7kBt3FzkithU2yDBsGqXAqR7+6jGJO9pfoNRrms3zYlv/xV3IvoyhVwxcFdQImnVFmrzprUZMfEjxJd9PUcotrngIU1oYOUbtwsTUvoG95zPWwDRNOfYxBBYIgjV2lgFxKb6xZ//1h2Pk1pxMhMRMD+8Zzstmb/7QCD9vou+FNsjDmLftu4Ojjh3tBCcIGssUNkVImlCCfQZvARYfbQOGLQbPGCW1+Px/nIJZ+KPjXBrZ6yD8x/8iG1mAB3weNriijN+7fFlFQuILfAuFvFdlcxHdry/60cqbc=
 
 before_install:
+- npm install -g greenkeeper-lockfile
 - npm install -g git://github.com/juwara0/pr-bumper#upstreamBranch
 - npm install -g ciena-devops@^1.0.0
 - $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
@@ -31,9 +33,15 @@ before_install:
 install:
 - $(npm root -g)/pr-bumper/.travis/maybe-install.sh
 
+before_script:
+- greenkeeper-lockfile-update
+
 script:
 - $(npm root -g)/pr-bumper/.travis/maybe-test.sh
 - $(npm root -g)/pr-bumper/.travis/maybe-bump-version.sh
+
+after_script:
+- greenkeeper-lockfile-upload
 
 after_success:
 - $(npm root -g)/pr-bumper/.travis/maybe-publish-coverage.sh
