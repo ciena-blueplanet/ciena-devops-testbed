@@ -1,3 +1,6 @@
+# 3.3.5 (2018-06-22)
+* **Updated** testing the regular PR process
+
 # 3.3.4 (2018-06-18)
 * **Updated** travis.yml to use `TRAVIS_NODE_VERSION` variable
 
