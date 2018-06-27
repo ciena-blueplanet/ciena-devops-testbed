@@ -1,3 +1,7 @@
+# 3.3.10 (2018-06-27)
+* **Added** some more dependencies to trigger greenkeeper
+
+
 # 3.3.9 (2018-06-27)
 * **Added** some more dependencies to trigger greenkeeper
 
