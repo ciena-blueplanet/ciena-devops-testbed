@@ -1,3 +1,7 @@
+# 3.3.9 (2018-06-27)
+* **Added** some more dependencies to trigger greenkeeper
+
+
 # 3.3.8 (2018-06-22)
 * **Updated** to include a whole lot of dependencies in order to test greenkeeper and greenskeeper-lockfile
 
