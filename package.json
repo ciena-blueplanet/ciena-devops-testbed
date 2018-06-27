@@ -97,7 +97,6 @@
     "loader.js": "^4.2.3",
     "lodash": "^4.17.10",
     "markdown-code-highlighting": "^0.2.0",
-    "pr-bumper": "^3.7.1",
     "react": "^16.4.1",
     "sinon-chai": "^3.0.0"
   }
