@@ -1,3 +1,6 @@
+# 3.3.11 (2018-06-29)
+* **Updated** `ember-decorators` to version `2.2.0`
+
 # 3.3.10 (2018-06-27)
 * **Removed** `pr-bumper` as a package to be tested
 
