@@ -1,3 +1,6 @@
+# 4.0.0 (2018-07-02)
+* **Updated** `ember-data` to version `3.2.0`
+
 # 3.3.11 (2018-06-29)
 * **Updated** `ember-decorators` to version `2.2.0`
 
