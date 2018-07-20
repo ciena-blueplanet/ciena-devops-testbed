@@ -60,7 +60,7 @@
     "ember-frost-action-bar": "^4.0.0",
     "ember-frost-bunsen": "^22.0.0",
     "ember-frost-chart": "^7.0.0",
-    "ember-frost-core": "^8.0.0",
+    "ember-frost-core": "^8.3.4",
     "ember-frost-date-picker": "^11.0.0",
     "ember-frost-fields": "^9.0.0",
     "ember-frost-file-picker": "^9.0.0",
