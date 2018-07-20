@@ -76,7 +76,7 @@
     "ember-frost-popover": "^11.0.0",
     "ember-frost-sidebar": "^8.0.0",
     "ember-frost-sort": "^13.0.0",
-    "ember-frost-table": "^5.0.0",
+    "ember-frost-table": "^5.0.1",
     "ember-frost-tabs": "^10.0.0",
     "ember-frost-test": "^4.0.1",
     "ember-hook": "^1.4.2",
