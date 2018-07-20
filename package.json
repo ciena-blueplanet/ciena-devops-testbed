@@ -78,7 +78,7 @@
     "ember-frost-sort": "^13.0.0",
     "ember-frost-table": "^5.0.0",
     "ember-frost-tabs": "^10.0.0",
-    "ember-frost-test": "^4.0.1",
+    "ember-frost-test": "^4.0.2",
     "ember-hook": "^1.4.2",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
