@@ -58,7 +58,7 @@
     "ember-elsewhere": "^1.0.4",
     "ember-export-application-global": "^2.0.0",
     "ember-frost-action-bar": "^4.0.0",
-    "ember-frost-bunsen": "^22.0.0",
+    "ember-frost-bunsen": "^22.4.2",
     "ember-frost-chart": "^7.0.0",
     "ember-frost-core": "^8.0.0",
     "ember-frost-date-picker": "^11.0.0",
