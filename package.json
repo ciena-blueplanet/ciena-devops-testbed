@@ -69,7 +69,7 @@
     "ember-frost-modal": "^12.0.0",
     "ember-frost-navigation": "^10.0.0",
     "ember-frost-notifier": "^9.0.0",
-    "ember-frost-object-browser": "^25.0.0",
+    "ember-frost-object-browser": "^25.0.4",
     "ember-frost-object-details": "^8.0.0",
     "ember-frost-page-title": "^1.2.0",
     "ember-frost-pick-list": "^4.0.0",
