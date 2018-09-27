@@ -86,7 +86,7 @@
     "ember-prop-types": "^7.0.2",
     "ember-resolver": "^4.0.0",
     "ember-sinon": "^2.1.0",
-    "ember-source": "^3.0.0",
+    "ember-source": "^3.4.4",
     "ember-source-channel-url": "^1.0.1",
     "ember-spread": "^5.0.0",
     "ember-test-utils": "^8.1.1",
