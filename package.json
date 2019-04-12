@@ -48,7 +48,7 @@
     "ember-cli-sass": "^7.1.7",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-svgstore": "ciena-blueplanet/ember-cli-svgstore#977df1cf58ae43b1d98a591573c3e06947744321",
-    "ember-cli-uglify": "^2.0.0",
+    "ember-cli-uglify": "^3.0.0",
     "ember-cli-version-checker": "^2.1.2",
     "ember-code-snippet": "^2.1.0",
     "ember-concurrency": "^0.8.17",
