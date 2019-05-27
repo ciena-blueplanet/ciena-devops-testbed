@@ -92,7 +92,7 @@
     "ember-test-utils": "^8.1.1",
     "ember-truth-helpers": "^2.0.0",
     "ember-try": "^0.2.23",
-    "eslint-plugin-ember": "^5.0.0",
+    "eslint-plugin-ember": "^6.5.1",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
     "lodash": "^4.17.10",
